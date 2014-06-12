@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_item_playlist"
+        android:icon="@drawable/ic_action_headphones"
+        android:orderInCategory="10"
+        android:showAsAction="always"
+        android:title="@string/playlist">
+    </item>
+    <item
+        android:id="@+id/menu_overflow"
+        android:icon="@drawable/ic_action_overflow"
+        android:orderInCategory="20"
+        android:showAsAction="always"
+        android:title="@string/menu">
+        <menu>
+            <item
+                android:id="@+id/menu_item_preferences"
+                android:icon="@drawable/ic_action_settings"
+                android:orderInCategory="30"
+                android:title="@string/preferences">
+            </item>
+            <item
+                android:id="@+id/menu_shutdown"
+                android:icon="@drawable/ic_action_io"
+                android:orderInCategory="40"
+                android:title="@string/shutdown_host">
+            </item>
+        </menu>
+    </item>
+
+</menu>

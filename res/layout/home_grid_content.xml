@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/grid_content_background"
+    android:orientation="vertical"
+    android:padding="@dimen/home_grid_content_padding" >
+
+    <ImageView
+        android:id="@+id/image_home_activity_grid"
+        android:layout_width="@dimen/grid_image_width"
+        android:layout_height="@dimen/grid_image_height"
+        android:layout_gravity="center"
+        android:layout_marginBottom="@dimen/home_grid_image_margin"
+        android:src="@drawable/ic_action_music_1" />
+
+    <TextView
+        android:id="@+id/text_home_activity_grid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="TextView"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</LinearLayout>

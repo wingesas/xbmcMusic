@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">XBMC Music</string>
+    <string name="menu_settings">Einstellungen</string>
+    <string name="title_activity_main">XBMC Music</string>
+    <string name="preferences">Einstellungen</string>
+    <string name="playlist">Playlist</string>
+    <string name="list_row_select_title">Abspielen/Playlist?</string>
+    <string name="list_row_selected_singular">ausgewählt</string>
+    <string name="list_row_selected_plural">ausgewählt</string>
+    <string name="play">Abspielen</string>
+    <string name="queue">zur Playlist hinzufügen</string>
+    <string name="reload">Aktualisieren</string>
+    <string name="shutdown">Herunterfahren</string>
+    <string name="shutdown_host">XBMC herunterfahren</string>
+    <string name="shutdown_host_ask">Soll XBMC %1$s herunter gefahren werden?</string>
+    <string name="menu">Menu</string>
+    <string name="connect_failure">Keine Verbindung zu %1$s (Port %2$s).</string>
+    <string name="error">Fehler</string>
+    <string name="timeout_error">Timeout</string>
+    <string name="directory_no_media">Verzeichnis enthält keine Daten</string>
+    <string name="playing">Wird abgespielt: %1$s</string>
+    <string name="queueing">Hinzugefügt: %1$s</string>
+    <string name="playing_multiple">Wird abgespielt</string>
+    <string name="queueing_multiple">Zur Playlist hinzufügt</string>
+    <string name="authorization_error">Fehler</string>
+    <string name="user_password_not_valid">Benutzername oder Passwort ungültig.</string>
+    <string name="like_the_app">Gefällt dir die App?</string>
+    <string name="please_rate">Bitte gib eine Bewertung ab. Play Store aufrufen?</string>
+    <string name="json_exception_title">Musik Datenbank</string>
+    <string name="json_exception_message">Element wurde nicht in der Musik Datenbank gefunden. Unter XBMC können Dateien zur Datenbank hinzugefügt werden.</string>
+    <string name="remove_from_playlist">Entfernen</string>
+    <string name="playlist_cab_menu_title">Aus Playlist entfernen?</string>
+    <string name="search">suche</string>
+
+    <!-- preferences host -->
+    <string name="host_pref_title">Host</string>
+    <string name="host_pref_dialog_title">XBMC Verbindung</string>
+    <string name="host_pref_summary">Verbindung zu XBMC bearbeiten</string>
+    <string name="host_address_label">Host</string>
+    <string name="host_address_hint">192.168.0.1</string>
+    <string name="host_port_label">Port</string>
+    <string name="host_port_hint">8080</string>
+    <string name="host_username_label">Benutzer</string>
+    <string name="host_username_hint">xbmc</string>
+    <string name="host_password_label">Passwort</string>
+
+    <!-- preferences playback -->
+    <string name="playback_pref_title">Wiedergabe</string>
+    <string name="playback_pref_dialog_title">nach Auswahl&#8230;</string>
+    <string name="playback_pref_summary">Abspielen oder zur Playlist hinzufügen?</string>
+
+    <string-array name="playback_entries">
+        <item>abspielen</item>
+        <item>zur Playlist hinzufügen</item>
+    </string-array>
+    
+    <string-array name="navigation_list_actions">
+        <item>Interpreten</item>
+        <item>Alben</item>
+        <item>Titel</item>
+        <item>Genre</item>
+        <item>Dateien</item>
+        <item>Playlist</item>
+    </string-array>
+
+</resources>

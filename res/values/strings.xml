@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">XBMC Music</string>
+    <string name="title_section3">Section 3</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section1">Section 1</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">XBMC Music</string>
+    <string name="preferences">Preferences</string>
+    <string name="playlist">Playlist</string>
+    <string name="list_row_select_title">play or queue?</string>
+    <string name="list_row_selected_singular">item selected</string>
+    <string name="list_row_selected_plural">items selected</string>
+    <string name="play">play</string>
+    <string name="queue">queue</string>
+    <string name="reload">reload</string>
+    <string name="shutdown">shutdown</string>
+    <string name="shutdown_host">Shutdown Host</string>
+    <string name="shutdown_host_ask">Do you want to shutdown the host %1$s?</string>
+    <string name="menu">Menu</string>
+    <string name="connect_failure">Can not connect to host %1$s on port %2$s.</string>
+    <string name="error">Error</string>
+    <string name="timeout_error">Timeout error</string>
+    <string name="directory_no_media">Directory contains no media</string>
+    <string name="playing">playing: %1$s</string>
+    <string name="queueing">queueing: %1$s</string>
+    <string name="playing_multiple">Playing multiple items</string>
+    <string name="queueing_multiple">Queueing multiple items</string>
+    <string name="authorization_error">Authorization error</string>
+    <string name="user_password_not_valid">User name or password is not valid.</string>
+    <string name="like_the_app">Do you like the app?</string>
+    <string name="please_rate">Please rate. Visit Play Store?</string>
+    <string name="json_exception_title">Music library</string>
+    <string name="json_exception_message">Item was not found in Music library. Add music to the library in your XBMC by scanning music files.</string>
+    <string name="remove_from_playlist">remove</string>
+    <string name="playlist_cab_menu_title">Remove from playlist?</string>
+    <string name="search">search</string>
+
+    <!-- preferences host -->
+    <string name="host_pref_title">Host</string>
+    <string name="host_pref_dialog_title">Edit Host</string>
+    <string name="host_pref_summary">Edit your XBMC host</string>
+    <string name="host_address_label">Host</string>
+    <string name="host_address_hint">192.168.0.1</string>
+    <string name="host_port_label">Port</string>
+    <string name="host_port_hint">8080</string>
+    <string name="host_username_label">User name</string>
+    <string name="host_username_hint">xbmc</string>
+    <string name="host_password_label">Password</string>
+
+    <!-- preferences playback -->
+    <string name="playback_pref_title">Playback</string>
+    <string name="playback_pref_dialog_title">when clicked&#8230;</string>
+    <string name="playback_pref_summary">Play or queue on click?</string>
+
+    <string-array name="playback_entries">
+        <item>play item</item>
+        <item>queue item</item>
+    </string-array>
+    <string-array name="playback_values">
+        <item>PLAY</item>
+        <item>QUEUE</item>
+    </string-array>
+
+    <!--  -->
+    <string-array name="navigation_list_actions_keys">
+        <item>ARTISTS</item>
+        <item>ALBUMS</item>
+        <item>SONGS</item>
+        <item>GENRE</item>
+        <item>FILES</item>
+        <item>PLAYLIST</item>
+    </string-array>
+    <string-array name="navigation_list_actions">
+        <item>Artists</item>
+        <item>Albums</item>
+        <item>Songs</item>
+        <item>Genre</item>
+        <item>Files</item>
+        <item>Playlist</item>
+    </string-array>
+
+    <integer-array name="navigation_list_actions_images">
+        <item>@drawable/ic_action_mic_large</item>
+        <item>@drawable/ic_action_record_large</item>
+        <item>@drawable/ic_action_music_1_large</item>
+        <item>@drawable/ic_action_guitar_large</item>
+        <item>@drawable/ic_action_folder_open_large</item>
+        <item>@drawable/ic_action_headphones_large</item>
+    </integer-array>
+
+</resources>

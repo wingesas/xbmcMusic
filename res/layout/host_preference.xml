@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="8dp" >
+
+    <TextView
+        android:id="@+id/text_host_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/host_address_label" />
+
+    <EditText
+        android:id="@+id/edit_host_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/host_address_hint"
+        android:inputType="textUri" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/text_host_port"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/host_port_label" />
+
+    <EditText
+        android:id="@+id/edit_host_port"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/host_port_hint"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/text_host_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/host_username_label" />
+
+    <EditText
+        android:id="@+id/edit_host_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/host_username_hint" />
+
+    <TextView
+        android:id="@+id/text_host_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/host_password_label" />
+
+    <EditText
+        android:id="@+id/edit_host_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+</LinearLayout>

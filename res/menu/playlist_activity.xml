@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_reload"
+        android:icon="@drawable/ic_action_reload"
+        android:orderInCategory="10"
+        android:showAsAction="always">
+    </item>
+    <item
+        android:id="@+id/menu_playback_prev"
+        android:icon="@drawable/ic_action_playback_prev"
+        android:orderInCategory="20"
+        android:showAsAction="always">
+    </item>
+    <item
+        android:id="@+id/menu_playback_pause"
+        android:icon="@drawable/ic_action_playback_pause"
+		android:orderInCategory="30"
+        android:showAsAction="always">
+    </item>
+    <item
+        android:id="@+id/menu_playback_stop"
+        android:icon="@drawable/ic_action_playback_stop"
+		android:orderInCategory="40"
+        android:showAsAction="always">
+    </item>
+    <item
+        android:id="@+id/menu_playback_next"
+        android:icon="@drawable/ic_action_playback_next"
+        android:orderInCategory="50"
+        android:showAsAction="always">
+    </item>
+
+</menu>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_playback_play"
+        android:orderInCategory="10"
+        android:icon="@drawable/ic_action_playback_play"
+        android:title="@string/play">
+    </item>
+    <item
+        android:id="@+id/menu_playback_queue"
+        android:orderInCategory="20"
+        android:icon="@drawable/ic_action_attachment_2"
+        android:title="@string/queue">
+    </item>
+
+</menu>
